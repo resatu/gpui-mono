@@ -1,0 +1,224 @@
+{
+  "name": "Graphyn Mono",
+  "description": "Graphyn Design System - Mono with Host Grotesk",
+  "fonts": {
+    "sans": "Host Grotesk",
+    "mono": "Geist Mono"
+  },
+  "radius": 0,
+  "shadow": false,
+  "themes": [
+    {
+      "name": "Graphyn Light",
+      "mode": "light",
+      "colors": {
+        "background": "#ffffff",
+        "foreground": "#0a0a0a",
+        "border": "#e5e5e5",
+        "ring": "#9a9a9a",
+        "caret": "#0a0a0a",
+
+        "primary.background": "#dddafb",
+        "primary.foreground": "#0b0b0b",
+        "primary.hover.background": "#d0ccf7",
+        "primary.active.background": "#c4bff1",
+
+        "secondary.background": "#f4f4f4",
+        "secondary.foreground": "#0f0f0f",
+        "secondary.hover.background": "#e8e8e8",
+        "secondary.active.background": "#dcdcdc",
+
+        "danger.background": "#e7000b",
+        "danger.foreground": "#f4f4f4",
+        "danger.hover.background": "#cc0009",
+        "danger.active.background": "#b10008",
+
+        "success.background": "#22c55e",
+        "success.foreground": "#ffffff",
+        "success.hover.background": "#16a34a",
+        "success.active.background": "#15803d",
+
+        "info.background": "#3b82f6",
+        "info.foreground": "#ffffff",
+        "info.hover.background": "#2563eb",
+        "info.active.background": "#1d4ed8",
+
+        "muted.background": "#f4f4f4",
+        "muted.foreground": "#656565",
+
+        "accent.background": "#c4bff1",
+        "accent.foreground": "#0b0b0b",
+        "accent.hover.background": "#b5afeb",
+        "accent.active.background": "#a69fe5",
+
+        "card.background": "#ffffff",
+        "card.foreground": "#0a0a0a",
+
+        "popover.background": "#ffffff",
+        "popover.foreground": "#0a0a0a",
+        "popover.border": "#e5e5e5",
+
+        "modal.background": "#ffffff",
+        "modal.border": "#e5e5e5",
+
+        "panel.background": "#ffffff",
+        "panel.border": "#e5e5e5",
+
+        "input.background": "#f4f4f4",
+        "input.border": "#e5e5e5",
+        "input.foreground": "#0a0a0a",
+
+        "switch.background": "#d4d4d4",
+        "switch.foreground": "#ffffff",
+
+        "list.background": "#ffffff",
+        "list.hover.background": "#f4f4f4",
+        "list.active.background": "#f4f4f4",
+        "list.active.border": "#c4bff1",
+        "list.selected.background": "#dddafb",
+        "list.selected.foreground": "#0b0b0b",
+
+        "tab.background": "#ffffff",
+        "tab.active.background": "#ffffff",
+        "tab.active.foreground": "#0a0a0a",
+
+        "sidebar.background": "#fafafa",
+        "sidebar.foreground": "#0a0a0a",
+        "sidebar.border": "#e5e5e5",
+        "sidebar.primary": "#0f0f0f",
+        "sidebar.primary.foreground": "#fafafa",
+        "sidebar.accent.background": "#f4f4f4",
+        "sidebar.accent.foreground": "#0f0f0f",
+
+        "scrollbar.background": "transparent",
+        "scrollbar.thumb.background": "#d4d4d4",
+        "scrollbar.thumb.hover.background": "#a3a3a3",
+
+        "selection.background": "#dddafb",
+        "selection.foreground": "#0b0b0b",
+
+        "link": "#0f0f0f",
+        "link.hover": "#656565",
+        "link.active": "#9a9a9a",
+
+        "progress_bar.background": "#f4f4f4",
+        "progress_bar.foreground": "#dddafb",
+
+        "loading_bar.background": "#f4f4f4",
+        "loading_bar.foreground": "#c4bff1",
+
+        "chart.1": "#686868",
+        "chart.2": "#686868",
+        "chart.3": "#686868",
+        "chart.4": "#686868",
+        "chart.5": "#686868"
+      }
+    },
+    {
+      "name": "Graphyn Dark",
+      "mode": "dark",
+      "colors": {
+        "background": "#0a0a0a",
+        "foreground": "#fafafa",
+        "border": "#2b2b2b",
+        "ring": "#9a9a9a",
+        "caret": "#fafafa",
+
+        "primary.background": "#dddafb",
+        "primary.foreground": "#0b0b0b",
+        "primary.hover.background": "#eae8fc",
+        "primary.active.background": "#f5f4fe",
+
+        "secondary.background": "#181818",
+        "secondary.foreground": "#fafafa",
+        "secondary.hover.background": "#222222",
+        "secondary.active.background": "#2c2c2c",
+
+        "danger.background": "#ff6467",
+        "danger.foreground": "#181818",
+        "danger.hover.background": "#ff7b7d",
+        "danger.active.background": "#ff9293",
+
+        "success.background": "#22c55e",
+        "success.foreground": "#ffffff",
+        "success.hover.background": "#4ade80",
+        "success.active.background": "#86efac",
+
+        "info.background": "#3b82f6",
+        "info.foreground": "#ffffff",
+        "info.hover.background": "#60a5fa",
+        "info.active.background": "#93c5fd",
+
+        "muted.background": "#181818",
+        "muted.foreground": "#9a9a9a",
+
+        "accent.background": "#c4bff1",
+        "accent.foreground": "#0b0b0b",
+        "accent.hover.background": "#d5d1f5",
+        "accent.active.background": "#e6e3f9",
+
+        "card.background": "#111111",
+        "card.foreground": "#fafafa",
+
+        "popover.background": "#181818",
+        "popover.foreground": "#fafafa",
+        "popover.border": "#2b2b2b",
+
+        "modal.background": "#111111",
+        "modal.border": "#2b2b2b",
+
+        "panel.background": "#111111",
+        "panel.border": "#2b2b2b",
+
+        "input.background": "#181818",
+        "input.border": "#474747",
+        "input.foreground": "#fafafa",
+
+        "switch.background": "#404040",
+        "switch.foreground": "#ffffff",
+
+        "list.background": "#0a0a0a",
+        "list.hover.background": "#181818",
+        "list.active.background": "#181818",
+        "list.active.border": "#c4bff1",
+        "list.selected.background": "#dddafb",
+        "list.selected.foreground": "#0b0b0b",
+
+        "tab.background": "#0a0a0a",
+        "tab.active.background": "#111111",
+        "tab.active.foreground": "#fafafa",
+
+        "sidebar.background": "#0f0f0f",
+        "sidebar.foreground": "#fafafa",
+        "sidebar.border": "#2b2b2b",
+        "sidebar.primary": "#fafafa",
+        "sidebar.primary.foreground": "#0f0f0f",
+        "sidebar.accent.background": "#181818",
+        "sidebar.accent.foreground": "#fafafa",
+
+        "scrollbar.background": "transparent",
+        "scrollbar.thumb.background": "#404040",
+        "scrollbar.thumb.hover.background": "#525252",
+
+        "selection.background": "#dddafb",
+        "selection.foreground": "#0b0b0b",
+
+        "link": "#fafafa",
+        "link.hover": "#d4d4d4",
+        "link.active": "#a3a3a3",
+
+        "progress_bar.background": "#181818",
+        "progress_bar.foreground": "#dddafb",
+
+        "loading_bar.background": "#181818",
+        "loading_bar.foreground": "#c4bff1",
+
+        "chart.1": "#9a9a9a",
+        "chart.2": "#9a9a9a",
+        "chart.3": "#9a9a9a",
+        "chart.4": "#9a9a9a",
+        "chart.5": "#9a9a9a"
+      }
+    }
+  ]
+}

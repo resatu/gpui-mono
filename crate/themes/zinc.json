@@ -1,0 +1,178 @@
+{
+  "themes": [
+    {
+      "name": "Zinc Light",
+      "mode": "light",
+      "colors": {
+        "background": "hsl(0, 0%, 100%)",
+        "foreground": "hsl(240, 10%, 3.9%)",
+        "border": "hsl(240, 5.9%, 90%)",
+        "ring": "hsl(240, 5.9%, 10%)",
+        "caret": "hsl(240, 5.9%, 10%)",
+
+        "primary.background": "hsl(240, 5.9%, 10%)",
+        "primary.foreground": "hsl(0, 0%, 98%)",
+        "primary.hover.background": "hsl(240, 5.9%, 15%)",
+        "primary.active.background": "hsl(240, 5.9%, 20%)",
+
+        "secondary.background": "hsl(240, 4.8%, 95.9%)",
+        "secondary.foreground": "hsl(240, 5.9%, 10%)",
+        "secondary.hover.background": "hsl(240, 4.8%, 90%)",
+        "secondary.active.background": "hsl(240, 4.8%, 85%)",
+
+        "danger.background": "hsl(0, 84.2%, 60.2%)",
+        "danger.foreground": "hsl(0, 0%, 98%)",
+        "danger.hover.background": "hsl(0, 84.2%, 55%)",
+        "danger.active.background": "hsl(0, 84.2%, 50%)",
+
+        "success.background": "hsl(142, 76%, 36%)",
+        "success.foreground": "hsl(0, 0%, 98%)",
+        "success.hover.background": "hsl(142, 76%, 30%)",
+        "success.active.background": "hsl(142, 76%, 25%)",
+
+        "info.background": "hsl(217, 91%, 60%)",
+        "info.foreground": "hsl(0, 0%, 98%)",
+        "info.hover.background": "hsl(217, 91%, 55%)",
+        "info.active.background": "hsl(217, 91%, 50%)",
+
+        "muted.background": "hsl(240, 4.8%, 95.9%)",
+        "muted.foreground": "hsl(240, 3.8%, 46.1%)",
+
+        "accent.background": "hsl(240, 4.8%, 95.9%)",
+        "accent.foreground": "hsl(240, 5.9%, 10%)",
+
+        "popover.background": "hsl(0, 0%, 100%)",
+        "popover.foreground": "hsl(240, 10%, 3.9%)",
+        "popover.border": "hsl(240, 5.9%, 90%)",
+
+        "modal.background": "hsl(0, 0%, 100%)",
+        "modal.border": "hsl(240, 5.9%, 90%)",
+
+        "panel.background": "hsl(0, 0%, 100%)",
+        "panel.border": "hsl(240, 5.9%, 90%)",
+
+        "input.border": "hsl(240, 5.9%, 90%)",
+
+        "list.background": "hsl(0, 0%, 100%)",
+        "list.hover.background": "hsl(240, 4.8%, 95.9%)",
+        "list.active.background": "hsl(240, 4.8%, 95.9%)",
+        "list.active.border": "hsl(240, 5.9%, 10%)",
+        "list.selected.background": "hsl(240, 5.9%, 10%)",
+        "list.selected.foreground": "hsl(0, 0%, 98%)",
+
+        "tab.background": "hsl(0, 0%, 100%)",
+        "tab.active.background": "hsl(0, 0%, 100%)",
+        "tab.active.foreground": "hsl(240, 10%, 3.9%)",
+
+        "sidebar.background": "hsl(0, 0%, 98%)",
+        "sidebar.border": "hsl(240, 5.9%, 90%)",
+        "sidebar.accent.background": "hsl(240, 4.8%, 95.9%)",
+        "sidebar.accent.foreground": "hsl(240, 5.9%, 10%)",
+
+        "scrollbar.background": "transparent",
+        "scrollbar.thumb.background": "hsl(240, 4.8%, 85%)",
+        "scrollbar.thumb.hover.background": "hsl(240, 4.8%, 75%)",
+
+        "selection.background": "hsl(240, 5.9%, 10%)",
+        "selection.foreground": "hsl(0, 0%, 100%)",
+
+        "link": "hsl(240, 5.9%, 10%)",
+        "link.hover": "hsl(240, 5.9%, 20%)",
+        "link.active": "hsl(240, 5.9%, 30%)",
+
+        "progress_bar.background": "hsl(240, 4.8%, 95.9%)",
+        "progress_bar.foreground": "hsl(240, 5.9%, 10%)",
+
+        "loading_bar.background": "hsl(240, 4.8%, 95.9%)",
+        "loading_bar.foreground": "hsl(240, 5.9%, 10%)"
+      }
+    },
+    {
+      "name": "Zinc Dark",
+      "mode": "dark",
+      "colors": {
+        "background": "hsl(240, 10%, 3.9%)",
+        "foreground": "hsl(0, 0%, 98%)",
+        "border": "hsl(240, 3.7%, 15.9%)",
+        "ring": "hsl(240, 4.9%, 83.9%)",
+        "caret": "hsl(0, 0%, 98%)",
+
+        "primary.background": "hsl(0, 0%, 98%)",
+        "primary.foreground": "hsl(240, 5.9%, 10%)",
+        "primary.hover.background": "hsl(0, 0%, 90%)",
+        "primary.active.background": "hsl(0, 0%, 85%)",
+
+        "secondary.background": "hsl(240, 3.7%, 15.9%)",
+        "secondary.foreground": "hsl(0, 0%, 98%)",
+        "secondary.hover.background": "hsl(240, 3.7%, 20%)",
+        "secondary.active.background": "hsl(240, 3.7%, 25%)",
+
+        "danger.background": "hsl(0, 62.8%, 30.6%)",
+        "danger.foreground": "hsl(0, 0%, 98%)",
+        "danger.hover.background": "hsl(0, 62.8%, 35%)",
+        "danger.active.background": "hsl(0, 62.8%, 40%)",
+
+        "success.background": "hsl(142, 76%, 30%)",
+        "success.foreground": "hsl(0, 0%, 98%)",
+        "success.hover.background": "hsl(142, 76%, 35%)",
+        "success.active.background": "hsl(142, 76%, 40%)",
+
+        "info.background": "hsl(217, 91%, 50%)",
+        "info.foreground": "hsl(0, 0%, 98%)",
+        "info.hover.background": "hsl(217, 91%, 55%)",
+        "info.active.background": "hsl(217, 91%, 60%)",
+
+        "muted.background": "hsl(240, 3.7%, 15.9%)",
+        "muted.foreground": "hsl(240, 5%, 64.9%)",
+
+        "accent.background": "hsl(240, 3.7%, 15.9%)",
+        "accent.foreground": "hsl(0, 0%, 98%)",
+
+        "popover.background": "hsl(240, 10%, 3.9%)",
+        "popover.foreground": "hsl(0, 0%, 98%)",
+        "popover.border": "hsl(240, 3.7%, 15.9%)",
+
+        "modal.background": "hsl(240, 10%, 3.9%)",
+        "modal.border": "hsl(240, 3.7%, 15.9%)",
+
+        "panel.background": "hsl(240, 10%, 3.9%)",
+        "panel.border": "hsl(240, 3.7%, 15.9%)",
+
+        "input.border": "hsl(240, 3.7%, 15.9%)",
+
+        "list.background": "hsl(240, 10%, 3.9%)",
+        "list.hover.background": "hsl(240, 3.7%, 15.9%)",
+        "list.active.background": "hsl(240, 3.7%, 15.9%)",
+        "list.active.border": "hsl(0, 0%, 98%)",
+        "list.selected.background": "hsl(0, 0%, 98%)",
+        "list.selected.foreground": "hsl(240, 5.9%, 10%)",
+
+        "tab.background": "hsl(240, 10%, 3.9%)",
+        "tab.active.background": "hsl(240, 10%, 3.9%)",
+        "tab.active.foreground": "hsl(0, 0%, 98%)",
+
+        "sidebar.background": "hsl(240, 3.7%, 15.9%)",
+        "sidebar.border": "hsl(240, 3.7%, 15.9%)",
+        "sidebar.accent.background": "hsl(240, 3.7%, 20%)",
+        "sidebar.accent.foreground": "hsl(0, 0%, 98%)",
+
+        "scrollbar.background": "transparent",
+        "scrollbar.thumb.background": "hsl(240, 3.7%, 25%)",
+        "scrollbar.thumb.hover.background": "hsl(240, 3.7%, 35%)",
+
+        "selection.background": "hsl(0, 0%, 98%)",
+        "selection.foreground": "hsl(240, 5.9%, 10%)",
+
+        "link": "hsl(0, 0%, 98%)",
+        "link.hover": "hsl(0, 0%, 85%)",
+        "link.active": "hsl(0, 0%, 75%)",
+
+        "progress_bar.background": "hsl(240, 3.7%, 15.9%)",
+        "progress_bar.foreground": "hsl(0, 0%, 98%)",
+
+        "loading_bar.background": "hsl(240, 3.7%, 15.9%)",
+        "loading_bar.foreground": "hsl(0, 0%, 98%)"
+      }
+    }
+  ]
+}

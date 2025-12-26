@@ -1,0 +1,5 @@
+{
+  "name": "gpui-shadcn Documentation",
+  "description": "Documentation and roadmap for the shadcn/ui Mono theme port to Rust GPUI.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,23 @@
+[package]
+name = "gpui-mono"
+version = "0.1.0"
+edition = "2021"
+description = "shadcn/ui Mono (Zinc) theme for GPUI - extends gpui-component"
+license = "MIT"
+repository = "https://github.com/fuego-wtf/gpui-mono"
+keywords = ["gpui", "ui", "theme", "shadcn", "zed"]
+categories = ["gui", "rendering"]
+
+[dependencies]
+# Use same gpui commit as gpui-component to avoid version conflicts
+gpui = { git = "https://github.com/zed-industries/zed" }
+gpui-component = { git = "https://github.com/longbridge/gpui-component" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[features]
+default = []
+embedded-fonts = []
+
+[dev-dependencies]
+# For examples
