@@ -1,20 +1,103 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# gpui-mono
 
-# Run and deploy your AI Studio app
+Graphyn Design System for GPUI - a theme layer on top of [gpui-component](https://github.com/longbridge/gpui-component) featuring lavender colors, sharp edges, and flat design.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zIkMhkOIuqmc5yQZxqLgKH-p39LKoo7J
+- **Lavender primary** (`#dddafb`) and accent (`#c4bff1`) colors
+- **Host Grotesk** sans-serif font
+- **Geist Mono** monospace font
+- **Zero radius** (sharp edges)
+- **No shadows** (flat design)
+- Light and dark mode support
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+Add to your `Cargo.toml`:
 
+```toml
+[dependencies]
+gpui-mono = { git = "https://github.com/graphyn/gpui-mono" }
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Usage
+
+```rust
+use gpui_mono::{init_graphyn_theme, GraphynMode};
+
+fn main() {
+    App::new().run(|cx| {
+        cx.open_window(WindowOptions::default(), |window, cx| {
+            // Initialize Graphyn theme (dark mode)
+            gpui_mono::init_graphyn_theme(window, cx, GraphynMode::Dark);
+
+            // Your root view here
+            cx.new(|_cx| MyRootView {})
+        });
+    });
+}
+```
+
+### Custom Configuration
+
+```rust
+use gpui_mono::{init_graphyn_theme_with_config, GraphynMode, GraphynConfig};
+
+let config = GraphynConfig {
+    font_sans: "Inter".into(),      // Override sans font
+    font_mono: "JetBrains Mono".into(), // Override mono font
+    font_size: 14.0,                // Base font size
+    radius: 4.0,                    // Add some rounding
+    shadow: true,                   // Enable shadows
+};
+
+gpui_mono::init_graphyn_theme_with_config(window, cx, GraphynMode::Dark, config);
+```
+
+### Switching Themes
+
+```rust
+use gpui_mono::{set_graphyn_light, set_graphyn_dark};
+
+// Switch to light mode
+set_graphyn_light(window, cx);
+
+// Switch to dark mode
+set_graphyn_dark(window, cx);
+```
+
+## Components
+
+All components from gpui-component are re-exported:
+
+```rust
+use gpui_mono::{Button, Input, Card, Modal, Table, List, /* ... */};
+```
+
+See [gpui-component documentation](https://github.com/longbridge/gpui-component) for the full component list.
+
+## Color Palette
+
+### Light Mode
+| Token | Value |
+|-------|-------|
+| background | `#ffffff` |
+| foreground | `#0a0a0a` |
+| primary | `#dddafb` |
+| accent | `#c4bff1` |
+| muted | `#f5f5f5` |
+| border | `#e5e5e5` |
+
+### Dark Mode
+| Token | Value |
+|-------|-------|
+| background | `#0a0a0a` |
+| foreground | `#fafafa` |
+| primary | `#dddafb` |
+| accent | `#c4bff1` |
+| muted | `#181818` |
+| border | `#2b2b2b` |
+
+## License
+
+MIT

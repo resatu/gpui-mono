@@ -26,8 +26,8 @@ const FILES: Record<string, string> = {
   "Cargo.toml": `[package]
 name = "gpui-mono"
 version = "0.1.0"
-edition = "2024"
-description = "shadcn/ui Mono (Zinc) theme for GPUI"
+edition = "2021"
+description = "Graphyn Design System for GPUI"
 license = "MIT"
 
 [dependencies]
@@ -1078,19 +1078,29 @@ const ThemingPage = () => (
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
        {[
-        "background", "foreground", 
-        "primary", "primary-foreground",
-        "secondary", "secondary-foreground",
-        "muted", "muted-foreground",
-        "accent", "accent-foreground",
-        "destructive", "destructive-foreground",
-        "card", "card-foreground",
-        "popover", "popover-foreground",
-        "border", "input", "ring"
+        { name: "background", color: "var(--background)" },
+        { name: "foreground", color: "var(--foreground)" },
+        { name: "primary", color: "var(--primary)" },
+        { name: "primary-foreground", color: "var(--primary-foreground)" },
+        { name: "secondary", color: "var(--secondary)" },
+        { name: "secondary-foreground", color: "var(--secondary-foreground)" },
+        { name: "muted", color: "var(--muted)" },
+        { name: "muted-foreground", color: "var(--muted-foreground)" },
+        { name: "accent", color: "var(--accent)" },
+        { name: "accent-foreground", color: "var(--accent-foreground)" },
+        { name: "destructive", color: "var(--destructive)" },
+        { name: "destructive-foreground", color: "var(--destructive-foreground)" },
+        { name: "card", color: "var(--card)" },
+        { name: "card-foreground", color: "var(--card-foreground)" },
+        { name: "popover", color: "var(--popover)" },
+        { name: "popover-foreground", color: "var(--popover-foreground)" },
+        { name: "border", color: "var(--border)" },
+        { name: "input", color: "var(--input)" },
+        { name: "ring", color: "var(--ring)" }
        ].map(token => (
-         <div key={token} className="space-y-1.5">
-            <div className={`h-10 w-full rounded-md border border-border shadow-sm bg-${token}`}></div>
-            <div className="text-xs font-medium text-muted-foreground text-center">{token}</div>
+         <div key={token.name} className="space-y-1.5">
+            <div className="h-10 w-full rounded-md border border-border shadow-sm" style={{ backgroundColor: token.color }}></div>
+            <div className="text-xs font-medium text-muted-foreground text-center">{token.name}</div>
          </div>
        ))}
     </div>
